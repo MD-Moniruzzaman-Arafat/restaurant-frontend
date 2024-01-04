@@ -1,13 +1,17 @@
 import { Outlet } from "react-router-dom";
 import Footer from "../component/Footer";
+import Navbar from "../component/Navbar";
 
 
 const Main = () => {
       return (
-            <div>
-                  <Outlet></Outlet>
-                  <Footer></Footer>
-            </div>
+            <>
+                  <div className="max-w-screen-xl mx-auto">
+                        <Navbar></Navbar>
+                        <Outlet></Outlet>
+                        <Footer></Footer>
+                  </div>
+            </>
       );
 };
 
