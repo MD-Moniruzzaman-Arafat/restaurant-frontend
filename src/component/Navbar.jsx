@@ -13,13 +13,11 @@ const Navbar = () => {
             <li><NavLink to={"/ourShop"}>OUR SHOP <FaCartShopping /></NavLink></li>
             <li><NavLink to={"/signOut"}>SIGN OUT <FaUserCircle /></NavLink></li>
 
-
-
       </>
 
       return (
             <>
-                  <div className="navbar bg-base-100">
+                  <div className="navbar bg-slate-700 bg-opacity-20 fixed z-10 max-w-7xl">
                         <div className="navbar-start">
                               <div className="dropdown">
                                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -29,10 +27,10 @@ const Navbar = () => {
                                           {menu}
                                     </ul>
                               </div>
-                              <a className="btn btn-ghost text-xl p-0">BISTRO BOSS</a>
+                              <a className="btn btn-ghost text-xl text-white">BISTRO BOSS</a>
                         </div>
-                        <div className="navbar-end hidden lg:flex">
-                              <ul className="menu menu-horizontal px-1 text-xs">
+                        <div className="navbar-end hidden text-[#F3CF38] lg:flex">
+                              <ul className="menu menu-horizontal px-1 text-xs font-bold">
                                     {menu}
                               </ul>
                         </div>
