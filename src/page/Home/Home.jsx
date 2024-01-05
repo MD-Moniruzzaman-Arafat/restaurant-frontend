@@ -1,3 +1,4 @@
+import OrderOnline from "../../component/OrderOnline";
 import Slider from "../../component/Slider";
 
 
@@ -6,6 +7,7 @@ const Home = () => {
             <>
                   <div className="">
                         <Slider></Slider>
+                        <OrderOnline></OrderOnline>
                   </div>
             </>
       );
