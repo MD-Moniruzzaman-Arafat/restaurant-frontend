@@ -11,7 +11,7 @@ import slider6 from "../assets/home/06.png";
 const Slider = () => {
       return (
             <div>
-                  <Carousel className="text-center">
+                  <Carousel className="text-center" autoPlay>
                         <div>
                               <img src={slider1} />
                         </div>
