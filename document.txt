@@ -4,3 +4,4 @@ daisyui
 react-icon
 react-responsive-carousel
 prop-types
+swiper
